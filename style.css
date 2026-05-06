@@ -7,8 +7,24 @@ body {
 
 p {
   line-height: 1.7;
-  font-size: 18px;
+  font-size: 16px;
   font-family: sans-serif;
+  letter-spacing: .1px;
+}
+
+h1 {
+  line-height: 2.1;
+  font-size: 24px;
+  font-family: sans-serif;
+  font-weight:600;
+  letter-spacing: .1px;
+}
+
+h2 {
+  line-height: 1.9;
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight:600;
   letter-spacing: .1px;
 }
 
