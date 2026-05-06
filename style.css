@@ -106,3 +106,9 @@ footer {
   display: block;
   margin: 0 auto;   /* centers horizontally */
 }
+.icon {
+  width: 30px;
+  height: auto;
+  display: block;
+  margin: 0 auto;   /* centers horizontally */
+}
