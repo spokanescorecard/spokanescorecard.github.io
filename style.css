@@ -49,7 +49,7 @@ header {
 
 .score-content {
   padding: 1rem 1.25rem;
-  display: none; /* collapsed by default */
+  display: block; /* expanded by default */
 }
 
 .metric-row {
