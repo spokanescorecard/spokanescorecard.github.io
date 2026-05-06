@@ -83,11 +83,11 @@ async function loadData() {
     });
 
     // Collapse / expand
-  //  header.addEventListener("click", () => {
-  //    const visible = content.style.display === "block";
-  //    content.style.display = visible ? "none" : "block";
-  //    header.querySelector(".arrow").textContent = visible ? "▶" : "▼";
-  //  });
+    header.addEventListener("click", () => {
+      const visible = content.style.display === "block";
+      content.style.display = visible ? "block" : "none";
+      header.querySelector(".arrow").textContent = visible ? "▶" : "▼";
+    });
 
     panel.appendChild(header);
     panel.appendChild(content);
